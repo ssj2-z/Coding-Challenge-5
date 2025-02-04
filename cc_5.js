@@ -55,3 +55,10 @@ function calculateTax(amount, taxRate) {
 $${tax.toFixed(2)}`);
         return tax;
 }
+
+// Task 9 Expressional Functions
+const applyDiscount = function(price, discount) {
+    const discountedPrice = price - (price * discount);
+    console.log(`The discounted price is:
+$${discountedPrice.toFixed(2)}`); return discountedPrice;
+};
