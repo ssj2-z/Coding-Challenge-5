@@ -37,3 +37,8 @@ console.log(discountedPrices);
 let inventory = [0, 1, 3, 4, 2];
 let availableProducts = inventory.filter(quantity => quantity > 0);
 console.log(availableProducts);
+
+// Task 6 Revenue 
+let sales = [10, 15, 20, 30];
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0);
+console.log(`Total revenue: $${totalRevenue}`);
