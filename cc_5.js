@@ -27,3 +27,8 @@ cartItems.pop();
 cartItems.unshift("Golfball");
 cartItems.shift();
 console.log(cartItems);
+
+// Task 4 Mapping it out
+let prices = [5, 10, 15];
+let discountedPrices = prices.map(price => price * .9);
+console.log(discountedPrices);
