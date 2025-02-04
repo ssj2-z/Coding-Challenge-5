@@ -21,7 +21,7 @@ order.displayOrder();
 
 // Task 3 Arraying Tricks
 let cartItems = ["Basketball", "Football", "Baseball"];
-.push()
+cartItems.push()
 cartItems.push("Tennisball");
 cartItems.pop();
 cartItems.unshift("Golfball");
@@ -47,3 +47,11 @@ console.log(`Total revenue: $${totalRevenue}`);
 let customers = ["Bob", "Steve", "John", "Jordan"];
 let customer = customers.find(name => name === "John");
 console.log(`Customer found: ${customer}`);
+
+// Task 8 Declaration a function
+function calculateTax(amount, taxRate) {
+    const tax = amount * taxRate;
+    console.log(`The calculated tax is:
+$${tax.toFixed(2)}`);
+        return tax;
+}
