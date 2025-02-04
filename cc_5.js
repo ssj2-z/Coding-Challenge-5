@@ -62,3 +62,10 @@ const applyDiscount = function(price, discount) {
     console.log(`The discounted price is:
 $${discountedPrice.toFixed(2)}`); return discountedPrice;
 };
+
+// Task 10 Arrow function
+const calculatePoints = (purchaseAmount) => {
+    const points = Math.floor(purchaseAmount / 10);
+    console.log(`You have earned ${points} points.`); 
+    return points;
+};
