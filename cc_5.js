@@ -42,3 +42,8 @@ console.log(availableProducts);
 let sales = [10, 15, 20, 30];
 let totalRevenue = sales.reduce((total, sale) => total + sale, 0);
 console.log(`Total revenue: $${totalRevenue}`);
+
+// Task 7 Finding and Sorting 
+let customers = ["Bob", "Steve", "John", "Jordan"];
+let customer = customers.find(name => name === "John");
+console.log(`Customer found: ${customer}`);
