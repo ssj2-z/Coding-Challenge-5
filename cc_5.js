@@ -18,3 +18,12 @@ $${this.totalAmount}`);
     }
 };
 order.displayOrder();
+
+// Task 3 Arraying Tricks
+let cartItems = ["Basketball", "Football", "Baseball"];
+.push()
+cartItems.push("Tennisball");
+cartItems.pop();
+cartItems.unshift("Golfball");
+cartItems.shift();
+console.log(cartItems);
